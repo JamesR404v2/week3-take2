@@ -10,8 +10,9 @@ public class CreateMethodExerciseTake3 {
 	}
 
 
+	// I need to first grock how Integer is used correctly, since it isn't a variable.
 	
-	public static int numberBetween50And300() {
+	public static Integer numberBetween50And300() {
 		
 		
 		
@@ -23,21 +24,22 @@ public class CreateMethodExerciseTake3 {
 		
 		Integer numberizedInput = Integer.parseInt(userInput);
 
-//		int numberOut;
-		int numberOut = 0;
+
+//		numberOut = 0;
 		
 
 		if (numberizedInput > 50 && numberizedInput < 300) 
 		{  
-		 	numberOut = numberizedInput;
+		 	Integer numberOut = numberizedInput;
 		}
 //		else
 //		{
-//			numberOut = numberizedInput;
-//			// adding this to have the variable declared
+//			numberOut = "null";
+//			
 //		}
-			 
-		return numberOut;
+//			 
+		integerOut = numberOut;
+		return integerOut;
 	}
 
 }
